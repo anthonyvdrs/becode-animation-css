@@ -1,0 +1,51 @@
+html {
+    background-color: black;
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    color: white;
+}
+
+
+div {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+        .button1 {
+            border: solid 2px white;
+
+            &:hover {
+                transition: 1s;
+                color: black;
+            background-color: white;
+            }
+           
+            
+        }    
+        .button2 {
+            border: solid 2px white;
+
+             &:hover { 
+                 color: black;
+                background-color: white;
+                transform: scale(1.5);
+                
+             }
+            
+        }
+        .button3{
+            border: solid 2px white;
+            &:hover{
+              color: black;
+            background-color: white;  
+            transform: translateX(30%)
+            }
+        }
+
+h2 {
+    color: white;
+}
+
+
