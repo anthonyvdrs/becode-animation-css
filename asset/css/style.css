@@ -1,4 +1,4 @@
-html { background-color: black; text-align: center; margin-left: 33%; margin-right: 33%; color: white; }
+html { background-color: black; text-align: center; margin-left: 33%; margin-right: 33%; color: white; text-decoration: none; }
 
 div { padding: 20px; text-decoration: none; color: white; -webkit-transition: all 1s; transition: all 1s; }
 
@@ -15,4 +15,6 @@ div { padding: 20px; text-decoration: none; color: white; -webkit-transition: al
 .button3:hover { color: black; background-color: white; -webkit-transform: translateX(30%); transform: translateX(30%); }
 
 h2 { color: white; }
+
+a { text-decoration: none; }
 /*# sourceMappingURL=style.css.map */

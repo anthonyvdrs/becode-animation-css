@@ -1,0 +1,92 @@
+html {
+    font-family: "Montserrat";
+    padding-top: 10%;
+    padding-left: 40%;
+}
+
+h2 {
+    color: #f35533;
+}
+
+p {
+    color: #909090;
+}
+
+.card {
+    width: 380px;
+    height: 500px;
+    margin-bottom: 2em;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 3px #000000bb;
+    transition: 1s;
+    &:hover {
+    box-shadow: 0px 0px 108px -25px rgba(122,122,122,1);
+    img {
+        transform: scale(1.5);
+        filter: opacity(70%);
+    }
+    .bottom {
+        transform: translatey(-10em);
+    }
+    .new {
+        transform: translatey(-10em);
+    }
+}
+}
+
+.bottom {
+    margin-top: -110px;
+    background-color: white;background-color: white;
+    height: auto;
+    position: relative;
+    z-index: 1;  
+    transition: 1s;  
+}
+
+.footer {
+    background-color: white;
+  z-index: 2;
+  width: 380px;
+  padding: 1% 15% 5%  ;
+  position: relative;
+  bottom: 11em;
+}
+ img {
+    z-index: 0;
+    transition: 1s;
+ }
+ 
+ .new {
+    position: relative;
+    z-index: 3;
+    width: 5em;
+    background: #f35533;
+    height: 1.5em;
+    margin: 0;
+    padding: 0;
+    top: -5.5em;
+    transition: transform 1s;
+    text-align: center;
+    color: white;
+ }
+
+ 
+.date {
+    background-color: #f35533;
+    border-radius: 50%;
+    position: relative;
+    z-index: 4;
+    height: 4em;
+    width: 4em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: -22em;
+    left: 18em;
+}
+
+.datecolor {
+    color: wheat;
+}
+ 
